@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>HELLO WORLD!</title>
+	<title></title>
 </head>
 <body>
+	<p>HELLO WORLD!</p>
 	
 </body>
 </html>
