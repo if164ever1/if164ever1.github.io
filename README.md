@@ -5,7 +5,7 @@
 	<title></title>
 </head>
 <body>
-	<p>HELLO WORLD!</p>
+	HELLO WORLD!
 	
 </body>
 </html>
