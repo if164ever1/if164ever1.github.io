@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home FORM</title>
+</head>
+
+<body>
+    <form action="post.html" method="post">
+        <table width="500" height="400" border="1">
+            <tr>
+                <td colspan="2" height="20">
+                    <div align="center"><strong>Pizza Shop 2.0</strong> </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="170" height="20">Name</td>
+                <td>
+                    <input type="text" name="name"></input>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="170" height="60">Pizza Toping</td>
+                <td>
+                    <input type="radio" name="topping" value="supreme">Supreme</input><br>
+                    <input type="radio" name="topping" value="vegetarian">Vegetarian</input><br>
+                    <input type="radio" name="topping" value="hawaiian">Hawaiian</input>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="170" height="20">Pizza Sauce</td>
+                <td>
+                    <select name="sauce">
+                        <option value="tomato">Tomato</option>
+                        <option value="barbeque">Barbeque</option>
+                        <option value="mayonnaise">Mayonnaise</option>
+                        <option value="secret">Secret Sauce</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="170" height="20">Optional Extras</td>
+                <td>
+                    <input type="checkbox" name="extra_cheese" value="1">Extra Cheese</input>
+                    <input type="checkbox" name="gluten_free" value="1">Gluten Free Base</input>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" height="60">
+                    <textarea name="delivery" cols="60" rows="4"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" height="20">
+                    <input type="submit" value="Send my Order">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
