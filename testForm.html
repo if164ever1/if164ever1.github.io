@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="some_script">
+        <fieldset>
+            <legend>My personal data</legend>
+           
+            <label for="name">Name: </label>
+            <input type="text" id="name"><br>
+            
+            <label for="email">Email: </label>
+            <input type="text" id="email"><br>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Submit" required>
+            <input type="reset"  value="Reset">
+        </fieldset>
+
+        <fieldset>
+            <label for="Faund">Faund: </label>
+            <input list="faund-list" id="faund">
+        </fieldset>
+        <datalist id="faund-list">
+            <option value="one value"></option>
+            <option value="second value"></option>
+            <option value="third value"></option>
+        </datalist>
+    </form>
+</body>
+</html>
