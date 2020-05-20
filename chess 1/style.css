@@ -1,0 +1,51 @@
+
+#board-side {
+  width: 800px;
+  height: 800px;
+  border: 2px solid gray; }
+  #board-side div.coord {
+    width: 80px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    line-height: 80px; }
+    #board-side div.coord.right {
+      float: right; }
+ 
+/* очищаєм поле і переходим на новий рядок*/
+.clear {
+  clear: both;}
+ 
+
+#board {
+  width: 640px;
+  height: 640px;
+  border: 2px solid gray;
+  position: absolute;
+  margin: 80px;
+  background-color: white;
+  font-size: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle; 
+}
+
+  #board div.row {
+    width: 640px;
+    height: 80px;
+    float: left; 
+}
+  #board div div {
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left; 
+}
+  #board div:nth-child(2n+1) div:nth-child(2n) {
+    background-color:gray; 
+}
+  #board div:nth-child(2n) div:nth-child(2n+1) {
+    background-color:grey; 
+}
