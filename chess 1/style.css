@@ -2,7 +2,9 @@
 #board-side {
   width: 800px;
   height: 800px;
-  border: 15px solid black; }
+  border: 15px solid black; 
+  background-color: rgba(255, 255, 0, 0.384);
+}
   #board-side div.coord {
     width: 80px;
     height: 80px;
@@ -25,7 +27,7 @@
   border: 2px solid black;
   position: absolute;
   margin: 80px;
-  background-color: white;
+  background-color:white;
   font-size: 50px;
   text-align: center;
   display: table-cell;
@@ -35,8 +37,8 @@
   #board div.row {
     width: 640px;
     height: 80px;
-    float: left; 
-}
+    float: left;
+    }
   #board div div {
     padding: 0;
     margin: 0;
