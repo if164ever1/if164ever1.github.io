@@ -2,7 +2,7 @@
 #board-side {
   width: 800px;
   height: 800px;
-  border: 2px solid gray; }
+  border: 15px solid black; }
   #board-side div.coord {
     width: 80px;
     height: 80px;
