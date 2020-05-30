@@ -14,3 +14,4 @@ for (var i in letterInString){
     console.log(i + ' = ' + letterInString[i]);
 }
 
+//
