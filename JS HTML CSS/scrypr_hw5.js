@@ -1,10 +1,16 @@
-var arr = {};
-var string = "HelLo world";
-var string2 = string.split();
 
-for (let index = 0; index < string.length; index++) {
-    var a = (string[index].split());
-    //arr.push((string[index].split()));
-    !(arr.hasOwnProperty(a)) ? arr[index] += a : break;
-    console.log(arr);
+var str = 'hello world';
+var arr = str.split("");
+var letterInString = {};
+
+for (let index = 0; index < arr.length; index++) {
+    if(arr[index]==" ") continue;
+    if(letterInString[arr[index]] == undefined) 
+        letterInString[arr[index]] = 0;
+    letterInString[arr[index]]++;
 }
+
+for (var i in letterInString){
+    console.log(i + ' = ' + letterInString[i]);
+}
+
