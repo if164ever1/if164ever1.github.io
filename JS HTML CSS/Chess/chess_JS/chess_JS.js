@@ -18,11 +18,21 @@ function drawInDesv(i, j){
         newCell.setAttribute("class", "topBottom-size")
         newCell.innerText = arr[j-2];
     }
-    /*
-    if((j%2==0)){
-        newCell.setAttribute("class", "white")
-    }*/
     
+    if((j%2==0)){
+        
+    }
+    
+    if((i>1 && i<10 && j>1 && j<10) &&
+        (i%2==0 && j%2!=0)){
+            newCell.setAttribute("class", "black")
+        } 
+
+    if((i>1 && i<10 && j>1 && j<10) &&
+        (i%2!=0 && j%2==0)){
+            newCell.setAttribute("class", "white")
+        } 
+
 }
 
 

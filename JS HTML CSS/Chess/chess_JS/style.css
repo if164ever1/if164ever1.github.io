@@ -58,11 +58,11 @@ font-size: 20px;
     border-collapse: collapse;
 }
 
-/*
+
 .white{
     display: table-row;
     border-collapse: collapse;
-    background-color: yellow;
+    background-color: black;
     text-align: center;
     display: table-cell;
     border: 1px solid black;
@@ -71,4 +71,18 @@ font-size: 20px;
     border-collapse: collapse;
     color: white;
 
-}*/
+}
+
+.black{
+    display: table-row;
+    border-collapse: collapse;
+    background-color:black;
+    text-align: center;
+    display: table-cell;
+    border: 1px solid black;
+    width: 80px;
+    height: 60px;
+    border-collapse: collapse;
+    color: white;
+
+}
